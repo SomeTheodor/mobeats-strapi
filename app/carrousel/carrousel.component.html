@@ -1,0 +1,17 @@
+<div class="container mt-5">
+    <div class="row">
+        <div class="col">
+            <carousel [itemsPerSlide]="5" [singleSlideOffset]="true" class="my-carousel">
+                <slide *ngFor="let imagen of listaPersonal.slice(8)" class="my-slide">
+                    <img [src]="'http://localhost:1337' + imagen.attributes.img_face.data.attributes.url" alt="{{ imagen.descripcion }}" class="img-fluid my-image">
+                    <h5 class="my-title">{{ imagen.attributes.name }}</h5>
+                    <p class="my-subtitle">{{ imagen.attributes.cargo }}</p>
+                </slide>
+            </carousel>
+        </div>
+    </div>
+</div>
+
+
+  
+  

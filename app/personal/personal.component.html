@@ -1,0 +1,34 @@
+<div class="container text-center mt-5">
+    <div class="row">
+      <!-- Parte superior de la pirámide (1 imagen) -->
+      <div class="col-12">
+        <img [src]="'http://localhost:1337' + listaPersonal[0].attributes.img_face.data.attributes.url" alt="Imagen 1" class="img-fluid">
+        <h3>{{listaPersonal[0].attributes.name}}</h3>
+        <p>{{ listaPersonal[0].attributes.cargo }}</p>
+        <p>{{listaPersonal[0].attributes.mail}}</p>
+    </div>
+    </div>
+    <div class="row">
+      <!-- Segunda zona de la pirámide (3 imágenes) -->
+      <div class="col-4" *ngFor="let personal of listaPersonal.slice(1, 4)">
+        <img [src]="'http://localhost:1337' + personal.attributes.img_face.data.attributes.url" [alt]="'Imagen ' + (listaPersonal.indexOf(personal) + 2)" class="img-fluid">
+        <h3>{{personal.attributes.name}}</h3>
+        <p>{{ personal.attributes.cargo }}</p>
+        <p>{{personal.attributes.mail}}</p>
+    </div>
+    </div>
+    <div class="row">
+      <!-- Parte más baja de la pirámide (4 imágenes) -->
+      <div class="col-3" *ngFor="let personal of listaPersonal.slice(4, 8)">
+        <img [src]="'http://localhost:1337' + personal.attributes.img_face.data.attributes.url" [alt]="'Imagen ' + (listaPersonal.indexOf(personal) + 5)" class="img-fluid">
+        <h3>{{personal.attributes.name}}</h3>
+        <p>{{ personal.attributes.cargo }}</p>
+        <p>{{personal.attributes.mail}}</p>
+    </div>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center align-items-center">
+    <app-carrousel class="mi-carrousel"></app-carrousel>
+  </div>
+  
+  

@@ -1,0 +1,19 @@
+.item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.item-image {
+    width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    border-radius: 50%;
+    object-fit: cover; /* Ajusta la forma en que la imagen se ajusta al contenedor */
+}
+
+.item-name {
+    margin-top: 10px;
+    font-weight: bold;
+}

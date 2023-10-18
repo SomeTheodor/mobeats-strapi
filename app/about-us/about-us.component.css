@@ -1,0 +1,59 @@
+.hero-about-us {
+  min-height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: 50%;
+}
+
+.bubbles {
+  position: absolute;
+  right: 0;
+  bottom: 250px;
+}
+
+.heading-1 {
+  font-weight: 1000;
+  font-size: 60px;
+  line-height: 48px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.badge {
+  background-color: #E3F8F9;
+  color: #45D2D4;
+  border-radius: 100px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+}
+.heading-3 {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 800;
+}
+.dash {
+  height: 4px;
+  width: 40px;
+  border-radius: 100px;
+  background-color: #0032BF;
+}
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: contain; /* This property ensures the image doesn't exceed its container's size while maintaining aspect ratio */
+}
+/* card-work.component.css */
+
+/* Estilos para el contenedor principal */

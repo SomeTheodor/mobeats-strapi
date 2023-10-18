@@ -1,0 +1,12 @@
+<div class="row">
+    <ng-container *ngFor="let item of alli; let i = index">
+        <div class="col-md-2">
+            <div class="item-container">
+                <img [src]="'http://localhost:1337' + item.attributes.img_tec.data.attributes.url" alt="{{ item.attributes.name }}" class="item-image">
+                <p class="item-name">{{ item.attributes.name }}</p>
+            </div>
+        </div>
+        <!-- Cerrar la fila después de mostrar 5 elementos -->
+        <div class="w-100" *ngIf="i === 4 || i === 9"></div>
+    </ng-container>
+</div>

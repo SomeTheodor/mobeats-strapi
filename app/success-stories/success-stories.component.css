@@ -1,0 +1,32 @@
+/* Estilos para el div hero-successful-cases */
+.hero-successful-cases {
+    background-color: var(--bk-cd-primary); /* Asegúrate de definir --bk-cd-primary en tus estilos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px; /* Ajusta la altura mínima según tus necesidades */
+    background-color: rgba(0, 0, 187, 0.848);
+  }
+  
+  /* Estilos para el texto centrado */
+  .hero-successful-cases .centered-text {
+    text-align: center;
+    color: white; /* Cambia el color del texto según tus necesidades */
+    font-size: 24px; /* Ajusta el tamaño de fuente según tus necesidades */
+    padding: 20px; /* Añade espaciado alrededor del texto */
+  }
+.heading-1{
+    font-weight: 800;
+    font-size: 60px;
+line-height: 64px;
+}
+
+.container-custom {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 13px;
+    padding-right: 13px;
+    position: relative;
+  }

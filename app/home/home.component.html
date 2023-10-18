@@ -1,0 +1,36 @@
+<app-navbar></app-navbar>
+<section >
+   <div class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+                <div class="card-content text-center" *ngFor="let item of section.slice(0,4); let i = index">
+                    <h3 class="badge">{{ item.attributes.title }}</h3>
+                    <h1 class="h3">{{item.attributes.subtitle }}</h1>
+                    <p>{{item.attributes.description}}</p>
+                    <div *ngIf="i > 0 && i <=1">
+                          <app-card-work [datos]="item" [rangoMin]="0" [rangoMax]="4"></app-card-work>
+                    </div> 
+                    <div *ngIf="i > 1 && i <=2">
+                      <app-card-work [datos]="item" [rangoMin]="4" [rangoMax]="9"></app-card-work>
+                </div> 
+              </div>
+              <app-allies></app-allies>
+              <div class="card-content text-center" >
+                <h3 class="badge">{{ section[4].attributes.title }}</h3>
+                <h1 class="h3">{{section[4].attributes.subtitle }}</h1>
+                <p>{{section[4].attributes.description}}</p>
+              <app-cardStory [datos]="section" [rangoMin]="0" [rangoMax]="3"></app-cardStory>
+              </div>
+              <app-testimonial></app-testimonial>
+            </div>
+          </div>
+        </div>
+        </div>
+        </section>
+    
+
+
+
+  
+  

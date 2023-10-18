@@ -1,0 +1,39 @@
+.container.mt-4.clase-especial {
+  margin-top: 1.5rem; /* Añade un espacio en la parte superior */
+}
+
+/* Estilos para las columnas dentro del row */
+.col-md-4 .clase-especial {
+  padding: 0.5rem; /* Añade espacio entre las columnas */
+}
+
+/* Estilos para la tarjeta */
+.card .clase-especial {
+  border: none; /* Quita el borde de la tarjeta */
+  transition: transform 0.2s; /* Agrega una transición suave al hacer hover */
+}
+
+.card:hover .clase-especial {
+  transform: translateY(-5px); /* Levanta la tarjeta ligeramente al hacer hover */
+}
+
+/* Estilos para la imagen dentro de la tarjeta */
+.card-img-top .clase-especial {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para el título de la tarjeta */
+.card-title .clase-especial {
+  font-size: 1.25rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Estilos para el texto de la tarjeta */
+.card-text .clase-especial {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+

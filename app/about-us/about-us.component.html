@@ -1,0 +1,70 @@
+<app-navbar></app-navbar>
+<div class="container-fluid hero-about-us" style="background-image: url('https://www.mobeats.io/wp-content/uploads/2022/02/Group-85.svg');
+background-repeat: no-repeat;
+background-size: cover;">
+    <div class="row justify-content-center">
+        <div class="col-12 text-center">
+            <h1 class="heading-1 mb-4 text-white">Your team of ninjas</h1>
+            <p class="heading-4 text-regular text-white"></p>
+        </div>
+    </div>
+    <img src="https://www.mobeats.io/wp-content/themes/creativedog-timber-woocommerce-theme-v2/assets/images/bubbles.svg" class="bubbles" alt="bubbles">
+</div>
+<section>
+   <div class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+                <div class="card-content text-center">
+                    <h3 class="badge">{{ listaCard[0].attributes.title }}</h3>
+                    <p class="h3">{{ listaCard[0].attributes.subtitle }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-6 col-lg-3 my-3" *ngFor="let map of maps">
+            <p class="fs-18 text-medium">{{map.attributes.country}}</p>
+            <div class="dash bk-cd-primary my-2"></div>
+            <p class="text-grey"> {{map.attributes.address}}<br>{{map.attributes.state}}</p>
+            </div>
+            </div>
+            </div>
+            <div class="row justify-content-center py-5">
+                <div class="col-lg-10">
+                  <img src="https://www.mobeats.io/wp-content/uploads/2022/02/map.svg" class="centered-image" alt="">
+                </div>
+              </div>
+</section>
+<section>
+    <div class="py-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+                    <div class="card-content text-center">
+                        <h3 class="badge">{{ listaCard[1].attributes.title }}</h3>
+                        <p class="h3">{{ listaCard[1].attributes.subtitle }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+</section>
+<app-card-work [datos]="listaCard" [rangoMin]="9" [rangoMax]="12" [class]="claseEspecial ? 'clase-especial' : ''"></app-card-work>
+<section>
+  <div class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+                <div class="card-content text-center">
+                    <h3 class="badge">{{ listaCard[2].attributes.title }}</h3>
+                    <p class="h3">{{ listaCard[2].attributes.subtitle }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <app-personal></app-personal>
+</section>    
+
+

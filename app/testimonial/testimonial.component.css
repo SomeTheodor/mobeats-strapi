@@ -1,0 +1,38 @@
+/* Estilos para la sección del testimonial */
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .badge {
+    background-color: #E3F8F9;
+    color: #45D2D4;
+    border-radius: 100px;
+    padding: 8px 20px;
+    text-transform: uppercase;
+  }
+  .heading-3 {
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 800;
+  }
+  .testimonial-card-inner {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el contenido */
+    padding: 20px;
+    border: 1px solid #ccc; /* Agrega un borde para mayor claridad */
+}
+
+.testimonial-card-inner img {
+    width: 100px; /* Tamaño de la imagen circular */
+    height: 100px; /* Tamaño de la imagen circular */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    margin-right: 20px; /* Espacio entre la imagen y el contenido de texto */
+}
+
+.testimonial-content {
+    flex-grow: 1; /* Hace que el contenido de texto ocupe el espacio restante */
+}
+
+.testimonial-description {
+    margin-bottom: 10px; /* Espacio entre la descripción y el nombre */
+}

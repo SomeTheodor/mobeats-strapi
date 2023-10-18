@@ -1,0 +1,15 @@
+<section class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="testimonial-card" *ngFor="let testimonio of testimonios">
+          <div class="testimonial-content text-center">
+            <h3 class="badge">{{ testimonio.attributes.tittle }}</h3>
+            <p class="h3">{{ testimonio.attributes.subtittle }}</p>
+              <app-card-testimonial></app-card-testimonial>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

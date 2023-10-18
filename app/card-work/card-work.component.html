@@ -1,0 +1,15 @@
+<div class="clase-especial">
+<div class="container mt-4 clase-especial">
+    <div class="row clase-especial">
+      <div class="col-md-4 clase-especial" *ngFor="let card of listaWork.slice(rangoMin, rangoMax)">
+        <div class="card mb-4 clase-especial">
+          <div class="card-body clase-especial h-100">
+            <img [src]="'http://localhost:1337' + card.attributes.icon.data.attributes.url" class="card-img-top clase-especial" alt="Imagen">
+            <h5 class="card-title clase-especial">{{ card.attributes.tittle }}</h5>
+            <p class="card-text clase-especial">{{ card.attributes.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>

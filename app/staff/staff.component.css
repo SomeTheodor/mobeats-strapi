@@ -1,0 +1,55 @@
+.container-custom {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+  }
+  .row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .badge {
+    background-color: #E3F8F9;
+    color: #45D2D4;
+    border-radius: 100px;
+    padding: 8px 20px;
+    text-transform: uppercase;
+  }
+  .heading-1 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 800;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 800;
+  }
+  .fs-20 {
+    font-size: 16px;
+    line-height: 30px;
+  }
+ .btn-cd-primary {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-radius: 100px;
+    border: none;
+    padding: 8px 25px ;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background-color: #0032BF;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+  }
+  a, .button {
+    text-decoration: none;
+  }

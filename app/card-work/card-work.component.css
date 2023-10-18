@@ -1,0 +1,56 @@
+/* card-work.component.css */
+
+/* Estilos para el contenedor principal */
+.container.mt-4.clase-especial {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem ;
+    
+  }
+.card-body{
+    background-color: white;
+border-radius: 16px;
+border: 1px solid #B9CBFF;
+padding: 45px 35px;
+}
+.card-body img{
+    width: 55px;
+}
+  /* Estilos para las columnas dentro del row */
+  .col-md-4.clase-especial {
+    padding: 0.5rem; /* Añade espacio entre las columnas */
+  }
+  
+  /* Estilos para la tarjeta */
+  .card.clase-especial {
+    border: none; /* Quita el borde de la tarjeta */
+    transition: transform 0.2s; /* Agrega una transición suave al hacer hover */
+  }
+  
+  .card:hover.clase-especial {
+    transform: translateY(-5px); /* Levanta la tarjeta ligeramente al hacer hover */
+  }
+  
+  /* Estilos para la imagen dentro de la tarjeta */
+  .card-img-top.clase-especial {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos para el título de la tarjeta */
+  .card-title.clase-especial {
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+    font-size: 22px;
+line-height: 32px;
+  }
+  
+  /* Estilos para el texto de la tarjeta */
+  .card-text.clase-especial {
+    font-size: 14px;
+font-weight: 500;
+line-height: 22px;
+
+margin: 0;
+color: #4F4F6B;;
+  }
+  

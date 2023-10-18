@@ -1,0 +1,105 @@
+.bk-dark-blue {
+    background-color: #04042c;
+  }
+  .container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+  }
+  .container-custom {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 13px;
+    padding-right: 13px;
+    position: relative;
+  }
+  .pt-5, .py-5 {
+    padding-top: 3rem !important;
+  }
+  .pb-3, .py-3 {
+    padding-bottom: 1rem !important;
+  }
+  .container-custom {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 13px;
+    padding-right: 13px;
+    position: relative;
+  }
+  .row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .flex-column {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+  }
+  .d-flex {
+    
+    display: flex !important;
+  }
+  .col-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .col-lg-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+   .col-12, .col{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  p{
+    color: azure;
+  }
+  .fs-14 {
+    font-size: 14px;
+  }
+  .text-light {
+    font-weight: 300;
+  }
+  .text-white {
+    color: #fff;
+  }
+  .text-light {
+    color: #f8f9fa !important;
+  }
+  .text-white {
+    color: #fff !important;
+  }
+  .mb-2, .my-2 {
+    margin-bottom: 0.5rem !important;
+  }
+  .mt-2, .my-2 {
+    margin-top: 0.5rem !important;
+  }
+  a, .button {
+    text-decoration: none !important;
+  }
+  a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+  }

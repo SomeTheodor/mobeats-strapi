@@ -1,0 +1,35 @@
+.carousel-inner .my-slide {
+    position: relative;
+overflow: hidden;
+display: block;
+margin: 0;
+}
+  /* Aumentar el espacio entre las imágenes */
+  .carousel-inner .my-slide {
+    margin-right: 15px; /* Ajusta el valor según tus preferencias */
+}
+
+/* Establecer un tamaño fijo para las imágenes */
+.carousel-inner .my-slide img {
+    width: 100%; /* Forzar un ancho del 100% para todas las imágenes */
+    height: auto; /* Ajustar automáticamente la altura para mantener la proporción */
+}
+
+/* Estilos para las flechas */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 40px; /* Ancho de las flechas */
+    height: 40px; /* Alto de las flechas */
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia el color de fondo de las flechas */
+    border: none; /* Elimina el borde de las flechas */
+    top: 50%; /* Alinea verticalmente las flechas al centro */
+    transform: translateY(-50%); /* Alinea verticalmente las flechas al centro */
+    opacity: 1; /* Asegura que las flechas sean visibles en todo momento */
+}
+
+/* Estilos para los iconos de flechas */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: white; /* Cambia el color de las flechas */
+    font-size: 24px; /* Tamaño del icono de flecha */
+}

@@ -1,0 +1,32 @@
+.contact .contact-pic, .be-a-ninja .contact-pic {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -5;
+    width: 650px;
+  }
+  img {
+    vertical-align: middle;
+    border-style: none;
+  }
+  .row {
+    
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+
+.mt-5, .my-5 {
+  margin-top: 3rem !important;
+}
+
+.badge {
+  background-color: #E3F8F9;
+  color: #45D2D4;
+  border-radius: 100px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+}
